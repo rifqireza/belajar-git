@@ -1,4 +1,4 @@
-const tes = "hai nama saya adalah manusia";
+const tes = "hai nama saya adalah reza";
 const firstCapital = (props) => {
     const name = props.split(" ");
     let element = "";
