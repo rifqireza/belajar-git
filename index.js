@@ -1,3 +1,13 @@
-const fs = require('fs');
+const tes = "hello world now im in";
+const firstCapital = (props) => {
+    const name = props.split(" ");
+    let element = "";
+    name.map(e => {
+        element += e[0].toUpperCase() + e.split("").filter((a,i) => {
+            return e[i - 1]
+        }).join("") + " "; 
+    }) 
+    return element;
+}
 
-fs.writeFileSync('test.txt', 'Hello');
+console.log(firstCapital(tes));
