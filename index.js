@@ -9,6 +9,3 @@ const firstCapital = (props) => {
     }) 
     return element;
 }
-
-console.log("hai");
-console.log(firstCapital(tes));
