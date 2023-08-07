@@ -9,3 +9,7 @@ const firstCapital = (props) => {
     }) 
     return element;
 }
+
+function init() {
+    console.log("hello");
+}
