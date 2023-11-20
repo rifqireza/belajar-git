@@ -1,7 +1,11 @@
-1. https://offensive-api-sit.sig.nisp.id/company/v3/master-department/detail/4800 
-   pq: syntax error at or near \"WHERE\"
-2. /v3/master-department/create & /v3/master-department/update 
-   body json nya gmna?
-3. https://offensive-api-sit.sig.nisp.id/company/v3/master-department/list?page=1&limit=10&sort=write_date%7Cdesc&with_meta=true  
-	- metadata nya ga ada
-	- bisa digabung aja sama yg card-view?, biar sekali get doang gitu
+https://offensive-api-sit.sig.nisp.id/company/v3/master-department/detail/4795
+sql: Scan error on column index 11, name \"history_id\": converting NULL to string is unsupported
+
+https://offensive-api-sit.sig.nisp.id/company/v3/master-department/update
+{
+    "id": 4800,
+    "name": "ddd",
+    "parent_id": 1021,
+    "active": true
+}
+"sql: Scan error on column index 4, name \"parent_id\": converting NULL to int is unsupported"
